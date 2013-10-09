@@ -12,7 +12,7 @@ If you setting it up for the first time, run the following script:
     
 It will check if you have all the required commands installed, and later will 
 install all the local dependencies from `package.json` (via `npm`) file and javascript
-libraries from `compontent.json` (via `bower`).
+libraries from `bower.json` (via `bower`).
 
 ## Development
 
@@ -29,7 +29,7 @@ To install new development dependencies use `npm`. Don't forget to add them to
 
 To install new javascript libraries use `bower`. Javascript components will be
 installed to `app/components/[component-name]` directory. Also, don't forget
-to add them to `component.json` file.
+to add them to `bower.json` file.
 
 If you want to use new javascript library in your application, simply load it
 via `script` HTML tag in `build:js` section of `app/index.html` file.
